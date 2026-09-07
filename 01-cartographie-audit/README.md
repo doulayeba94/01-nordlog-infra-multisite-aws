@@ -39,7 +39,7 @@ Avant toute recommandation, il faut établir un état des lieux exhaustif : rés
 
 | Site | Niveau de risque | Analyse |
 |---|---|---|
-| **Siège Lille** | **Critique** (risque transverse) | Le lien fibre du siège n'est **pas redondé**, et **tous** les entrepôts en dépendent pour accéder au WMS (hébergé uniquement au siège). Une panne de ce lien ou du serveur WMS immobilise l'ensemble des 4 entrepôts simultanément — c'est le point de défaillance le plus structurant de toute l'infrastructure. |
+| **Siège Lille** | **Critique** (risque transverse) | Le lien fibre du siège n'est pas redondé, et tous les entrepôts en dépendent pour accéder au WMS (hébergé uniquement au siège). Une panne de ce lien ou du serveur WMS immobilise l'ensemble des 4 entrepôts simultanément. C'est le point de défaillance le plus structurant de toute l'infrastructure. |
 | **Entrepôt Lyon** | Élevé (déjà matérialisé) | A déjà subi la panne de 8h à l'origine de la mission — confirme que l'absence de redondance ADSL sur ce site n'est pas un risque théorique mais un incident réel. Priorité de remédiation immédiate. |
 | **Entrepôt Marseille** | Élevé | Les coupures fréquentes (<5 min) suggèrent un problème de couche physique ou de stabilité de la ligne ADSL plutôt qu'un simple manque de bande passante — chaque coupure interrompt les sessions applicatives WMS des terminaux mobiles, avec un impact cumulatif sur la productivité même sans panne totale. |
 | **Entrepôt Rennes** | Moyen | Les lenteurs en fin de journée, combinées à la plus faible bande passante (10 Mbps), évoquent une saturation du lien aux heures de forte activité logistique (fin de journée = préparation des expéditions du lendemain). |
